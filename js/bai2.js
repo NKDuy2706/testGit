@@ -1,0 +1,3 @@
+again = () => {
+    location.reload()
+}

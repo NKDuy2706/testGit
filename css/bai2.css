@@ -1,0 +1,37 @@
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: aquamarine;
+}
+.title {
+    min-width: 180px;
+    display: inline-block;
+    text-align: end;
+    margin: 10px 0;
+}
+input[type="text"],input[type="email"] {
+    margin: 10px;
+    width: 46%;
+    height: 20px;
+    border-radius: 4px;
+}
+form div {
+    width: 100%;
+    text-align: center;
+}
+input:focus {
+    background-color: rgb(71, 71, 255);
+    box-shadow: 1px 1px 4px rgb(71, 71, 255);
+    color: white;
+}
+input:invalid {
+    background-color: rgb(253, 255, 112);
+    color: white;
+}
+input:hover {
+    box-shadow: 1px 1px 4px rgb(150, 150, 150);
+}
+form>div>input:hover {
+    cursor: pointer;
+}
